@@ -1992,7 +1992,7 @@ airplane<-function(G){
       add_generator("platoon31_", r8to13, 
                     function() rexp(n=1,rate=0.00417*1)) %>%
       #add_generator("platoon32", r8to14, function() rexp(n=1,rate=0.0041*0)) 
-      run(until=3000)})
+      run(until=8760)})
   
   platonmonotr1 <- lapply(1:3, function(i){
     result <- envs[[i]] %>% 
